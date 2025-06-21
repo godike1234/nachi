@@ -1,8 +1,8 @@
 FROM tomcat: 8.0.20-jres
 
-MAINTAINER Ashok cashok@oracle.com>
+MAINTAINER Nachi gnachiketh00@gmail.com>
 
-EXPOSE 808e
+EXPOSE 8080
 
 COPY target/paven-welt/ypp.war/usr/local/tomcat/webapps/maven-web-pp.war
 
